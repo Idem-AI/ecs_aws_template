@@ -1,7 +1,7 @@
 {
   "archetypes": {
     "ecs-service": {
-      "description": "Déploie un ou plusieurs services sur ECS avec support ALB, WAF, CDN et secrets.",
+      "description": "Deploys one or more services on ECS with support for ALB, WAF, CDN and secrets.",
       "variables": {
         "services": {
           "description": "Map of service configurations",
@@ -74,7 +74,7 @@
     },
 
     "database": {
-      "description": "Déploie une base de données RDS, Aurora ou DynamoDB.",
+      "description": "Deploys a database on RDS, Aurora or DynamoDB.",
       "variables": {
         "deployment_name": "string",
         "database_engine": "string",
@@ -95,6 +95,5 @@
       }
     }
 
-    // Tu peux ajouter autant d’archetypes que tu veux ici...
   }
 }
